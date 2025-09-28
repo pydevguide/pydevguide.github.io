@@ -1,1 +1,172 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.ico"/><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="A collaboration application built with the twilio-video.js SDK and React.js"/><title>Twilio Video App</title></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div><script>!function(e){function t(t){for(var n,i,l=t[0],a=t[1],p=t[2],c=0,s=[];c<l.length;c++)i=l[c],Object.prototype.hasOwnProperty.call(o,i)&&o[i]&&s.push(o[i][0]),o[i]=0;for(n in a)Object.prototype.hasOwnProperty.call(a,n)&&(e[n]=a[n]);for(f&&f(t);s.length;)s.shift()();return u.push.apply(u,p||[]),r()}function r(){for(var e,t=0;t<u.length;t++){for(var r=u[t],n=!0,l=1;l<r.length;l++){var a=r[l];0!==o[a]&&(n=!1)}n&&(u.splice(t--,1),e=i(i.s=r[0]))}return e}var n={},o={1:0},u=[];function i(t){if(n[t])return n[t].exports;var r=n[t]={i:t,l:!1,exports:{}};return e[t].call(r.exports,r,r.exports,i),r.l=!0,r.exports}i.m=e,i.c=n,i.d=function(e,t,r){i.o(e,t)||Object.defineProperty(e,t,{enumerable:!0,get:r})},i.r=function(e){"undefined"!=typeof Symbol&&Symbol.toStringTag&&Object.defineProperty(e,Symbol.toStringTag,{value:"Module"}),Object.defineProperty(e,"__esModule",{value:!0})},i.t=function(e,t){if(1&t&&(e=i(e)),8&t)return e;if(4&t&&"object"==typeof e&&e&&e.__esModule)return e;var r=Object.create(null);if(i.r(r),Object.defineProperty(r,"default",{enumerable:!0,value:e}),2&t&&"string"!=typeof e)for(var n in e)i.d(r,n,function(t){return e[t]}.bind(null,n));return r},i.n=function(e){var t=e&&e.__esModule?function(){return e.default}:function(){return e};return i.d(t,"a",t),t},i.o=function(e,t){return Object.prototype.hasOwnProperty.call(e,t)},i.p="/";var l=this["webpackJsonptwilio-video-app-react"]=this["webpackJsonptwilio-video-app-react"]||[],a=l.push.bind(l);l.push=t,l=l.slice();for(var p=0;p<l.length;p++)t(l[p]);var f=a;r()}([])</script><script src="/static/js/2.5608a83c.chunk.js"></script><script src="/static/js/main.042001d5.chunk.js"></script></body></html>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Python Developer Guide</title>
+  <meta name="description" content="A concise guide to important Python topics, learning resources, career paths, AI with Python, and background about Python's creator." />
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1>Python Developer Guide</h1>
+      <p class="tagline">Practical roadmap, key topics, courses, and career notes for Python developers.</p>
+      <nav>
+        <a href="#topics">Topics</a>
+        <a href="#learn">Resources</a>
+        <a href="#career">Career Path</a>
+        <a href="#ai">AI with Python</a>
+        <a href="#about">About Python</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="intro">
+      <h2>Welcome</h2>
+      <p>This guide gives a compact roadmap for learning Python, key topics every developer should know, curated learning resources (courses and YouTube channels), guidance on career paths that use Python, a primer on using Python for AI/ML, and a short note about Python's creator.</p>
+    </section>
+
+    <section id="topics">
+      <h2>Important Python Topics</h2>
+      <p>Core knowledge areas to master, ordered roughly from beginner to advanced.</p>
+      <ul class="topics-list">
+        <li><strong>Python Basics:</strong> syntax, variables, data types, control flow, functions, error handling.</li>
+        <li><strong>Data Structures:</strong> lists, tuples, sets, dicts, comprehensions, iterators, generators.</li>
+        <li><strong>OOP:</strong> classes, inheritance, magic methods, composition, dataclasses.</li>
+        <li><strong>File I/O & Serialization:</strong> open, context managers, CSV, JSON, pickle.</li>
+        <li><strong>Testing:</strong> unittest, pytest, test-driven development basics.</li>
+        <li><strong>Packaging & Environments:</strong> venv, pip, requirements.txt, pyproject.toml, setuptools, poetry.</li>
+        <li><strong>Async & Concurrency:</strong> threading, multiprocessing, asyncio, concurrent.futures.</li>
+        <li><strong>Networking & Web:</strong> HTTP requests (requests), building APIs (Flask, FastAPI), web scraping (BeautifulSoup, Scrapy).</li>
+        <li><strong>Databases:</strong> SQL (sqlite, PostgreSQL), ORMs (SQLAlchemy, Django ORM), NoSQL basics.</li>
+        <li><strong>Data Science & Visualization:</strong> numpy, pandas, matplotlib, seaborn, data cleaning.</li>
+        <li><strong>Machine Learning & AI:</strong> scikit-learn, TensorFlow, PyTorch, model evaluation.</li>
+        <li><strong>DevOps & Automation:</strong> scripting, cron, Docker basics, CI/CD tools.</li>
+        <li><strong>Security & Best Practices:</strong> input validation, secure dependencies, logging, observability.</li>
+      </ul>
+    </section>
+
+    <section id="learn">
+      <h2>Curated Learning Resources</h2>
+      <p>Mix of structured courses and YouTube channels to follow — free and paid options.</p>
+
+      <div class="grid">
+        <div class="card">
+          <h3>Courses</h3>
+          <ul>
+            <li><a href="https://www.coursera.org/specializations/python" target="_blank" rel="noopener">Coursera: Python for Everybody (University of Michigan)</a></li>
+            <li><a href="https://www.udemy.com/course/complete-python-bootcamp/" target="_blank" rel="noopener">Udemy: Complete Python Bootcamp</a></li>
+            <li><a href="https://ocw.mit.edu/courses/6-0001-introduction-to-computer-science-and-programming-in-python-fall-2016/" target="_blank" rel="noopener">MIT: Intro to CS using Python (OCW)</a></li>
+            <li><a href="https://www.edx.org/professional-certificate/python-data-science" target="_blank" rel="noopener">edX: Python for Data Science (various providers)</a></li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>YouTube Channels & Playlists</h3>
+          <ul>
+            <li><a href="https://www.youtube.com/c/Freecodecamp" target="_blank" rel="noopener">freeCodeCamp.org — full-length course videos</a></li>
+            <li><a href="https://www.youtube.com/c/CoreyMSchafer" target="_blank" rel="noopener">Corey Schafer — concise tutorials</a></li>
+            <li><a href="https://www.youtube.com/c/Sentdex" target="_blank" rel="noopener">sentdex — practical projects, ML/DS</a></li>
+            <li><a href="https://www.youtube.com/c/TechWithTim" target="_blank" rel="noopener">Tech With Tim — projects and interviews</a></li>
+            <li><a href="https://www.youtube.com/c/3Blue1Brown" target="_blank" rel="noopener">3Blue1Brown — mathematical intuition for ML</a></li>
+          </ul>
+        </div>
+
+        <div class="card">
+          <h3>Books & Docs</h3>
+          <ul>
+            <li><a href="https://docs.python.org/3/" target="_blank" rel="noopener">Official Python docs — reference and tutorials</a></li>
+            <li><a href="https://automatetheboringstuff.com/" target="_blank" rel="noopener">Automate the Boring Stuff with Python (Al Sweigart)</a></li>
+            <li><a href="https://www.python.org/dev/peps/pep-0008/" target="_blank" rel="noopener">PEP 8 — Style Guide for Python Code</a></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="career">
+      <h2>Career Paths with Python</h2>
+      <p>Python is widely used across industries. Common career paths:</p>
+      <ul>
+        <li><strong>Backend Web Developer:</strong> Build APIs and services using Flask, Django, or FastAPI. Learn databases, authentication, and deployment.</li>
+        <li><strong>Data Scientist / Analyst:</strong> Work with pandas, numpy, visualization, statistics, SQL, and reporting.</li>
+        <li><strong>Machine Learning Engineer / AI Researcher:</strong> Train and deploy ML models using scikit-learn, TensorFlow, PyTorch. Focus on model lifecycle and productionization.</li>
+        <li><strong>DevOps / SRE:</strong> Use Python for automation, tooling, CI/CD pipelines, and cloud automation (boto3 for AWS).</li>
+        <li><strong>Automation & Scripting:</strong> Quick wins in companies—automating workflows, data pipelines, and ETL tasks.</li>
+        <li><strong>Embedded & IoT:</strong> MicroPython and CircuitPython for constrained devices.</li>
+      </ul>
+
+      <h3>How to prepare</h3>
+      <ul>
+        <li>Build a portfolio of small projects and deploy at least one end-to-end app.</li>
+        <li>Open-source contributions and GitHub presence help recruiters.</li>
+        <li>Learn system design basics, testing, and writing maintainable code.</li>
+        <li>Practice interview-style coding and domain-specific tasks (SQL, ML case studies).</li>
+      </ul>
+    </section>
+
+    <section id="ai">
+      <h2>AI & Machine Learning with Python</h2>
+      <p>Python is the dominant language for AI and ML because of its rich ecosystem. Typical workflow:</p>
+      <ol>
+        <li>Data collection and cleaning (pandas, numpy)</li>
+        <li>Exploratory data analysis and visualization (matplotlib, seaborn, plotly)</li>
+        <li>Feature engineering</li>
+        <li>Modeling (scikit-learn for classical ML; TensorFlow / PyTorch for deep learning)</li>
+        <li>Evaluation and hyperparameter tuning</li>
+        <li>Deployment (Flask, FastAPI, TorchServe, TensorFlow Serving, Docker)</li>
+      </ol>
+
+      <p>Key libraries and tools:</p>
+      <ul>
+        <li>numpy, pandas — numerical work and data frames</li>
+        <li>scikit-learn — baseline models and pipelines</li>
+        <li>TensorFlow, Keras, PyTorch — deep learning</li>
+        <li>MLFlow, Weights & Biases — experiment tracking</li>
+        <li>Jupyter / JupyterLab — interactive exploration</li>
+      </ul>
+
+      <p>Quick tips:</p>
+      <ul>
+        <li>Start with small datasets and well-known benchmarks (Iris, MNIST).</li>
+        <li>Focus on reproducibility: seed random generators, document environment and dependencies.</li>
+        <li>Learn to profile and optimize data pipelines before scaling models.</li>
+      </ul>
+    </section>
+
+    <section id="about">
+      <h2>About Python & Its Creator</h2>
+      <p>Python was created by <strong>Guido van Rossum</strong> in the late 1980s and first released in 1991. Guido led the language as its "Benevolent Dictator For Life (BDFL)" until stepping down in 2018. Python's design emphasizes readability, simplicity, and a strong standard library.</p>
+      <p>Key milestones:</p>
+      <ul>
+        <li>1991 — Python 0.9.0 released</li>
+        <li>2000 — Python 2.0 introduced (many features, now end-of-life)</li>
+        <li>2008 — Python 3.0 released (incompatible changes, now standard)</li>
+        <li>Python today is maintained by the Python core development team and a large open-source community.</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Starter Projects</h2>
+      <p>Project ideas to build skills:</p>
+      <ul>
+        <li>CLI todo app with file persistence and tests.</li>
+        <li>REST API for a simple resource and deploy to Heroku or a VPS.</li>
+        <li>Data analysis notebook exploring a public dataset (Kaggle).</li>
+        <li>Image classification model using transfer learning (PyTorch / TF).</li>
+        <li>Automation scripts for repetitive tasks (file renaming, scraping).</li>
+      </ul>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; Python Developer Guide — curated links and suggestions. Not affiliated with any course providers.</p>
+      <p>Want this as a template? You can fork the repo and customize it.</p>
+    </div>
+  </footer>
+
+</body>
+</html>
